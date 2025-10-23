@@ -1,0 +1,6 @@
+﻿Name,Length,NumberOfLaps,NumberOfCorners,HasHighSpeedSections,BaseLapTime
+Monza,5.793,53,11,true,79.0
+Silverstone,5.891,52,18,true,85.0
+Monaco,3.337,78,19,false,105.0
+Spa,7.004,44,20,true,100.0
+Suzuka,5.807,53,17,false,90.0
