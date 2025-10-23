@@ -29,10 +29,10 @@ namespace FormulaOneProject.Simulations
         //Methods
         public void StartRace()
         {
-            var standings = _drivers.OrderBy(d => d.TotalTime).ToList();
-
             for (int lap = 1; lap <= _track.NumberOfLaps; lap++)
             {
+                var standings = _drivers.OrderBy(driver => driver.TotalTime).ToList();
+
                 Console.WriteLine($"Lap {lap} results:");
 
                 for (int i = 0; i < _cars.Count; i++)
